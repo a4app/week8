@@ -1,0 +1,145 @@
+::-webkit-scrollbar {
+    width: 0;
+}
+.admin-page-main {
+    width: 100vw;
+    background-color: #40434e;
+    height: 100vh;
+}
+
+.top-nav-bar {
+    padding: 0 5px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #42424e;
+    box-shadow:  0 5px 5px 0 #2a2a32;
+}
+
+.new-logout-button {
+    padding: 8px 15px;
+    border-radius: 5%;
+    border: none;
+    color: #d4d4d4;
+    background: #42424e;
+    box-shadow: 2px 2px 2px #2a2a32, -2px -2px 2px #5a5a6a;
+    margin: 10px;
+}
+
+.admin-page-body {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+    padding: 20px;
+    justify-content: center;
+}
+
+.vehicle-tile {
+    max-width: 300px;
+    position: relative;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow:  -5px -5px 4px #1a1a1f, 5px 5px 4px #6a6a7d;
+}
+
+.vehicle-img {
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 150px;
+}
+
+.delete-vehicle-icon {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.edit-vehicle-icon {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    bottom: 35px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.vehicle-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFF;
+    margin: 2px  10px 5px 10px;
+}
+
+.vehicle-price {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #00d9ff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #42424e;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.vehicle-desc {
+    font-weight: 600;
+    color: #d1c9c9;
+    margin: 0 10px 20px 10px;
+}
+.vehicle-quantity {
+    position: absolute;
+    right: 10px;
+    top: 120px;
+    background-color: #42424e;
+    color: #FFFFFF;
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.add-new-vehicle {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-new-vehicle img {
+    width: 80px;
+    height: 80px;
+}
+
+.no-data {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-loader {
+    position: absolute;
+    left: calc(50% - 30px);
+    top: 50%;
+}
+
+.open-bookings {
+    padding: 8px 18px;
+    border-radius: 5%;
+    border: none;
+    color: #FFF;
+    background: #42424e;
+    box-shadow: 2px 2px 2px #2a2a32, -2px -2px 2px #5a5a6a;
+    margin: 10px;
+    font-weight: 600;
+}

@@ -1,0 +1,95 @@
+.add-vehicle-main {
+    background-color: #000000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-vehicle-form {
+    width: 80%;
+    max-width: 400px;
+    background-color: #ffffff21;
+    border-radius: 10px;
+	box-shadow: 0 0 40px #08071099;
+	padding: 20px 35px;
+}
+
+.add-vehicle-head {
+    font-size: 32px;
+	font-weight: 500;
+	line-height: 42px;
+	text-align: center;
+    color: aliceblue;
+}
+
+.add-vehicle-field-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 65px;
+    margin-top: 25px;
+}
+
+.required-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.required-star {
+	color: #ff0000;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.add-vehicle-labels {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.add-vehicle-field-div input {
+	border: 2px solid #ffffff1a;
+	background-color: #ffffff12;
+	border-radius: 5px;
+    color: #FFF;
+	padding: 10px 10px;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.add-vehicle-field-div input:disabled {
+	background-color: #70707012;
+}
+
+.add-vehicle-field-div input:focus {
+    outline: none;
+	border: 2px solid #ffffff44;
+}
+
+.next-button-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.add-vehicle-button {
+    padding: 6px 18px;
+    background-color: #0caf94;
+    border-radius: 5px;
+    color: #FFF;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.add-vehicle-button:hover {
+    background-color: #29dbbe;
+}
+
+.add-vehicle-button:disabled {
+    cursor: no-drop;
+    background-color: #038872;
+}

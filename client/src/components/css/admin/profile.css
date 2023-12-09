@@ -1,0 +1,188 @@
+.profile-page-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #40434e;
+    height: 100vh;
+}
+
+.profile-page-container {
+    box-shadow: 3px 3px 4px 0px #000000, -3px -3px 4px -3px #B2C2CB;
+    width: 80%;
+    max-width: 400px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.profile-picture-div {
+    position: relative;
+    z-index: 2;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    padding: 3px;
+}
+
+.profile-picture {
+    box-shadow: 0px 0px 5px 0px #0ED2F6;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.profile-page-options-div {
+    display: grid;
+    width: 90%;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.hyper-links {
+    padding: 15px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 3px 3px 4px 0px #000000, -3px -3px 4px -3px #B2C2CB;
+    transition: box-shadow 0.3s, color 0.3s;
+}
+
+.hyper-links:hover {
+    color: #ff8903;
+    box-shadow: inset 3px 3px 4px 0px #000000, inset -3px -3px 4px -3px #B2C2CB;
+}
+
+.user-name {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: #0ED2F6;;
+    margin-top: 20px;
+}
+
+.profile-edit-button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 10px;
+    right: 10px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.profile-picture-not-found {
+    box-shadow: 0px 0px 5px 0px #0ED2F6;
+    width: 194px;
+    height: 194px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff8903;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*---------------------- Edit option ------------------------*/
+
+.edit-panel {
+    width: 80%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 4px 0px #000000, -3px -3px 4px -3px #B2C2CB;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.choose-file-button {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 5px 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.selected-file-name {
+    color: #0ED2F6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.selected-file-upload-button {
+    color: #ff8800;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    box-shadow: 3px 3px 4px 0px #000000, -3px -3px 4px -3px #B2C2CB;
+    background-color: #40434e;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*--------- toast---------*/
+.admin-profile-toast {
+    position: absolute;
+    width: 180px;
+    background-color: #060607;
+    bottom: 20px;
+    right: calc(50% - 90px);
+    text-align: center;
+    padding: 7px 20px;
+    border: 1px solid #00d9ff;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+/*--------- toast---------*/
+
+/*---------- image loading div--------*/
+.image-loading-div {
+    box-shadow: 0px 0px 5px 0px #0ED2F6;
+    width: 194px;
+    height: 194px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*---------- image loading div--------*/
+
+/*------------------ logout button ----*/
+.admin-profile-logout-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    color: #FFF;
+    background: #42424e;
+    box-shadow: 2px 2px 2px #2a2a32, -2px -2px 2px #5a5a6a;
+    margin: 10px;
+}
+/*------------------ logout button ----*/

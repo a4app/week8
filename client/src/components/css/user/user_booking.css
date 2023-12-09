@@ -1,0 +1,147 @@
+.user-booking-main {
+    background-color: #40434e;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*----- top nav bar ----- */
+.user-booking-top-nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0 5px;
+    background-color: #42424e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:  0 5px 5px 0 #2a2a32;
+}
+
+.user-booking-filter-drop-down {
+    margin: 0 20px;
+    color: #ffffff;
+    padding: 5px 7px;
+    border-radius: 5px;
+    background-color: #2E333A;
+    border: 1px solid #0ED2F6;
+    font-weight: 700;
+}
+
+.user-booking-filter-drop-down:focus {
+    outline: none;
+}
+
+.user-booking-back-button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    color: #FFF;
+    background: #42424e;
+    box-shadow: 2px 2px 2px #2a2a32, -2px -2px 2px #5a5a6a;
+    margin: 10px;
+}
+
+/*------------------- booking table-------------*/
+.user-booking-table-div {
+    box-shadow: 4px 4px 12px 0px #000000, -4px -4px 12px -9px #ffffff;
+    padding: 10px;
+    width: 80%;
+    max-width: 900px;
+    max-height: 500px;
+    border-radius: 10px;
+    border-collapse: collapse;
+    overflow: auto;
+    min-height: 100px;
+}
+
+.user-booking-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-booking-table th {
+    padding: 8px 16px;
+    color: #0ED2F6;
+    background-color: #000000;
+    border: 1px solid #0ED2F6;
+    letter-spacing: 1px;
+}
+
+.user-booking-table tr {
+    background-color: #000000;
+}
+
+.user-booking-table td {
+    text-align: center;
+    padding: 7px 14px;
+    width: 20%;
+    border: 1px solid #FFFFFF;
+    overflow: hidden;
+    color: #FFFFFF;
+}
+
+.request-cancel-button {
+    padding: 4px 10px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    background: #f37907;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.retry-button {
+    padding: 4px 10px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    background: #ff0000;
+    font-weight: 800;
+    cursor: pointer;
+    margin: 0 2px;
+}
+
+.cancel-button {
+    padding: 4px 10px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    background: #fd7302;
+    font-weight: 800;
+    cursor: pointer;
+    margin: 0 2px;
+}
+
+/* ---------------------- loader overlay -----------*/
+.loader-visible {
+    position: absolute;
+    background-color: #00000015;
+    width: 100vw;
+    height: 100vh;
+    z-index: 998;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+}
+
+.loader-invisible {
+    display: none;
+}
+
+/* ---- scrollbar ---*/
+*::-webkit-scrollbar {
+    width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 5px;
+}
